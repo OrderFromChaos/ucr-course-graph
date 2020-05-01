@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "getCatalog": "node scripts/catalog.js",
-    "getPrerequisites": "node scripts/prerequisites.js"
+    "getPrerequisites": "node scripts/prerequisites.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,8 @@
     "lodash": "^4.17.4",
     "request": "^2.81.0",
     "request-promise": "^4.2.1",
-    "tough-cookie": "^2.3.2"
-  }
+    "tough-cookie": "^2.3.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
