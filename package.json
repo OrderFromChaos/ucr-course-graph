@@ -31,7 +31,7 @@
     "cheerio": "^1.0.0-rc.2",
     "config": "^1.26.2",
     "lodash": "^4.17.4",
-    "request": "^2.81.0",
+    "request": "^2.88.0",
     "request-promise": "^4.2.1",
     "tough-cookie": "^2.3.2"
   }
